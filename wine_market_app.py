@@ -6,7 +6,7 @@ import dash_bootstrap_components as dbc
 from dash import Input, Output, dcc, html, page_container
 
 ### Initialize
-app = dash.Dash(__name__,use_pages=True, external_stylesheets=[dbc.themes.BOOTSTRAP])
+app = dash.Dash(__name__,use_pages=True, external_stylesheets=[dbc.themes.MINTY])
 
 ### Style 
 SIDEBAR_STYLE = {
